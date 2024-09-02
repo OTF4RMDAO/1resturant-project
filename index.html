@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites Menu</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: #343a40;
+            /* Dark Grey */
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+
+        nav {
+            background-color: #343a40;
+            /* Dark Grey */
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            flex: 1;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+        }
+
+        h2 {
+            color: #007bff;
+            /* Blue color */
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+
+        ul {
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        strong {
+            display: block;
+            font-size: 1.2rem;
+            color: #343a40;
+            /* Dark Grey */
+            margin-bottom: 5px;
+        }
+
+        p {
+            margin: 0;
+            color: #666;
+        }
+
+        footer {
+            background: #28a745;
+            /* Green color */
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        a {
+            color: #007bff;
+            /* Blue color */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Delicious Bites Menu</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>Appetizers</h2>
+            <ul>
+                <li>
+                    <strong>Caprese Salad</strong>
+                    <p>Fresh tomatoes, creamy mozzarella, and aromatic basil, drizzled with a balsamic reduction. A
+                        classic Italian starter.</p>
+                </li>
+                <li>
+                    <strong>Stuffed Mushrooms</strong>
+                    <p>Plump mushrooms filled with a creamy blend of cheese, garlic, and herbs, baked to perfection. A
+                        delightful bite-sized treat.</p>
+                </li>
+                <li>
+                    <strong>Bruschetta</strong>
+                    <p>Crispy toasted bread topped with a zesty mixture of ripe tomatoes, garlic, and basil. A taste of
+                        Italy in every bite.</p>
+                </li>
+                <li>
+                    <strong>Garlic Knots</strong>
+                    <p>Soft, fluffy knots of dough brushed with garlic butter and sprinkled with Parmesan cheese.
+                        Perfectly seasoned and irresistibly good.</p>
+                </li>
+                <li>
+                    <strong>Shrimp Cocktail</strong>
+                    <p>Chilled shrimp served with a tangy cocktail sauce. A refreshing and elegant starter.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Main Courses</h2>
+            <ul>
+                <li>
+                    <strong>Grilled Salmon</strong>
+                    <p>Tender salmon fillet, perfectly seasoned and grilled, served with a zesty lemon butter sauce. A
+                        healthy and flavourful choice.</p>
+                </li>
+                <li>
+                    <strong>Chicken Alfredo</strong>
+                    <p>Juicy chicken breast over fettuccine pasta, smothered in a rich and creamy Alfredo sauce. Comfort
+                        food at its finest.</p>
+                </li>
+                <li>
+                    <strong>Vegetarian Lasagna</strong>
+                    <p>Layers of fresh pasta, creamy ricotta, and spinach, all baked in a savory marinara sauce. A
+                        hearty and satisfying vegetarian option.</p>
+                </li>
+                <li>
+                    <strong>Beef Wellington</strong>
+                    <p>Tender beef wrapped in flaky puff pastry, served with a rich mushroom duxelles and a side of
+                        creamy mashed potatoes. An elegant and indulgent choice.</p>
+                </li>
+                <li>
+                    <strong>Spaghetti Carbonara</strong>
+                    <p>Classic spaghetti tossed with crispy pancetta, eggs, and Parmesan cheese, creating a creamy and
+                        comforting dish.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Desserts</h2>
+            <ul>
+                <li>
+                    <strong>Chocolate Fondue</strong>
+                    <p>A decadent pot of rich, melted chocolate served with fresh fruits and marshmallows for dipping. A
+                        sweet and interactive treat.</p>
+                </li>
+                <li>
+                    <strong>Cheesecake</strong>
+                    <p>A classic New York-style cheesecake with a buttery graham cracker crust, topped with a hint of
+                        vanilla. Smooth, creamy, and irresistible.</p>
+                </li>
+                <li>
+                    <strong>Lemon Sorbet</strong>
+                    <p>A refreshing and tangy sorbet made with real lemon juice, perfect for cleansing the palate. Light
+                        and invigorating.</p>
+                </li>
+                <li>
+                    <strong>Tiramisu</strong>
+                    <p>A classic Italian dessert made with layers of coffee-soaked ladyfingers and creamy mascarpone
+                        cheese, dusted with cocoa powder. Rich and velvety.</p>
+                </li>
+                <li>
+                    <strong>Panna Cotta</strong>
+                    <p>Creamy, vanilla-flavoured panna cotta served with a berry compote. A delicate and delightful end
+                        to your meal.</p>
+                </li>
+            </ul>
+        </section>
+
+        <p><a href="contact.html">Contact us for reservations</a></p>
+    </main>
+
+    <footer>    
+        <p>&copy; Developer OJ 2024 | Delicious Bites Restaurant. | All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
